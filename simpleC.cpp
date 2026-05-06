@@ -1,7 +1,7 @@
 #include <iostream>
 using namespace std;
 #include <string>
-main (void){
+int main (void){
 float x;
 float y;
 float c;
