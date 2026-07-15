@@ -24,7 +24,7 @@ Supports arithmetic expressions, parentheses, percentages, and unary minus.
 
 Clone the repository and build with make:
 
-`git clone https://github.com/YOUR_USERNAME/simpleC.git`  
+`git clone https://github.com/vladik50/simpleC.git`  
 `cd simpleC`  
 `make`
 
