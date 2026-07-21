@@ -13,6 +13,35 @@ Supports arithmetic expressions, parentheses, percentages, and unary minus.
 - **REPL mode**: interactive prompt for continuous calculations
 - **Error handling**: clear messages for division by zero and syntax errors
 
+## Installation
+
+### Debian / Ubuntu / Linux Mint (.deb)
+
+Download the latest `.deb` package from the [Releases](https://github.com/vladik50/simpleC/releases) page and install it:
+
+sudo dpkg -i simplec_1.0-1_amd64.deb
+
+Or install from the terminal:
+
+wget https://github.com/vladik50/simpleC/releases/download/v1.0/simplec_1.0-1_amd64.deb
+sudo dpkg -i simplec_1.0-1_amd64.deb
+
+### Fedora / RHEL / CentOS (.rpm)
+
+Download the latest `.rpm` package from the [Releases](https://github.com/vladik50/simpleC/releases) page and install it:
+
+sudo dnf install simplec-1.0-1.fcXX.x86_64.rpm
+
+Or using `rpm` directly:
+
+sudo rpm -i simplec-1.0-1.fcXX.x86_64.rpm
+
+### Arch Linux / Manjaro (.pkg.tar.zst)
+
+Download the latest `.pkg.tar.zst` package from the [Releases](https://github.com/vladik50/simpleC/releases) page and install it:
+
+sudo pacman -U simplec-1.0-1-x86_64.pkg.tar.zst
+
 ## Build from Source
 
 ### Requirements
@@ -44,7 +73,7 @@ This copies `simpleC` to `/usr/local/bin`. To uninstall:
 
 Launch the calculator:
 
-`./simpleC`
+`./simpleC` or `simplec`
 
 You will see the `>>` prompt. Type an expression and press Enter.
 
